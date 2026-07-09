@@ -1,291 +1,281 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="NovaFrame Studio creates high-converting videos, websites, carousel designs, social media content, and brand visuals.">
-  <title>NovaFrame Studio | Creative Content Studio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURELIA | Every Dish Tells a Story</title>
+    <meta name="description" content="Experience handcrafted cuisine, exceptional hospitality, and unforgettable moments in the heart of the city at Aurelia.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="site-bg" aria-hidden="true"></div>
-
-  <header class="site-header" id="home">
-    <nav class="nav-pill" aria-label="Primary navigation">
-      <a class="brand" href="#home" aria-label="NovaFrame Studio home">
-        <span class="brand-dot"></span>
-        <span>NovaFrame Studio</span>
-      </a>
-      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primaryMenu">
-        <span></span>
-        <span></span>
-      </button>
-      <div class="nav-links" id="primaryMenu">
-        <a href="#services">Services</a>
-        <a href="#work">Work</a>
-        <a href="#process">Process</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
-        <a class="mobile-menu-cta" href="#contact">Let's Talk</a>
-      </div>
-      <a class="nav-cta" href="#contact">Let's Talk</a>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">AURELIA</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#chef">Chef</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#reserve" class="btn btn-outline nav-btn">Reserve</a>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
     </nav>
-  </header>
 
-  <main>
-    <section class="hero section">
-      <div class="hero-inner reveal">
-        <p class="kicker"><span></span>Creative Content Studio</p>
-        <h1>We Build <em>Brands</em><br>That Stand Out.</h1>
-        <p class="hero-copy">High-converting videos, modern websites, and social content engineered for growth. A small team obsessed with craft — sharpened by an AI-powered workflow.</p>
-        <div class="hero-actions">
-          <!-- CALENDLY SETUP: Replace the URL below with your real Calendly booking link. -->
-          <a class="button button-orange" href="https://calendly.com/YOUR_CALENDLY_USERNAME/free-consultation" target="_blank" rel="noopener noreferrer">Book a Free Consultation <span>→</span></a>
-          <a class="button button-dark" href="#work">View Portfolio</a>
+    <!-- 1. Full-screen Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <img src="assets/restaurant_hero.png" alt="Aurelia Restaurant Interior" class="hero-img">
+            <div class="overlay"></div>
         </div>
-      </div>
-    </section>
-
-    <div class="ticker" aria-label="Services ticker">
-      <div class="ticker-track">
-        <span>UGC Ads</span><b>✦</b><span>Product Commercials</span><b>✦</b><span>Motion Graphics</span><b>✦</b><span>Websites</span><b>✦</b><span>Carousel Design</span><b>✦</b><span>Social Media</span><b>✦</b>
-        <span>UGC Ads</span><b>✦</b><span>Product Commercials</span><b>✦</b><span>Motion Graphics</span><b>✦</b><span>Websites</span><b>✦</b><span>Carousel Design</span><b>✦</b><span>Social Media</span><b>✦</b>
-      </div>
-    </div>
-
-    <section class="services section" id="services">
-      <div class="section-head reveal">
-        <p class="kicker"><span></span>What We Do</p>
-        <h2>A complete creative engine for brands that want to be noticed.</h2>
-        <p>From the first frame of a video ad to the last pixel of a landing page, we handle strategy, design, and production end to end.</p>
-      </div>
-
-      <div class="service-grid">
-        <article class="service-card featured reveal">
-          <div class="service-icon">▻</div>
-          <h3>Video Production</h3>
-          <p>Cinematic ads, UGC, and motion that convert browsers into buyers.</p>
-          <ul>
-            <li>UGC Video Ads</li>
-            <li>Product Commercials</li>
-            <li>Motion Graphics</li>
-            <li>Brand Launch Videos</li>
-            <li>Explainer Videos</li>
-            <li>Reels & Shorts</li>
-          </ul>
-        </article>
-        <article class="service-card reveal">
-          <div class="service-icon">◌</div>
-          <h3>Social Media</h3>
-          <p>Strategy, content, and paid social assets that turn scrolls into sales.</p>
-          <ul>
-            <li>Social Media Management</li>
-            <li>Social Media Ads</li>
-            <li>Carousel Design</li>
-            <li>Content Strategy</li>
-          </ul>
-        </article>
-        <article class="service-card reveal">
-          <div class="service-icon">▣</div>
-          <h3>Web Design</h3>
-          <p>Conversion-led websites that look premium, load fast, and guide action.</p>
-          <ul>
-            <li>Website Design & Development</li>
-            <li>Landing Pages</li>
-            <li>Portfolio Websites</li>
-            <li>Website Redesign</li>
-          </ul>
-        </article>
-        <article class="service-card reveal">
-          <div class="service-icon">✦</div>
-          <h3>Branding</h3>
-          <p>Identity systems and launch visuals that make your brand recognisable.</p>
-          <ul>
-            <li>Logo Design</li>
-            <li>Brand Identity</li>
-            <li>Marketing Creatives</li>
-            <li>Ad Banners</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="work section" id="work">
-      <div class="section-head reveal">
-        <p class="kicker"><span></span>Selected Work</p>
-        <h2>Large-format creative built to stop the scroll.</h2>
-        <p>Placeholder projects presented like real case studies, ready to swap with final portfolio images.</p>
-      </div>
-      <div class="work-grid">
-        <article class="work-card tall reveal">
-          <div class="work-image image-video"></div>
-          <div class="work-copy"><span>UGC Ad</span><h3>Headphone UGC Ad</h3><p>Creator-led product story shaped for attention, clarity, and fast testing.</p></div>
-        </article>
-        <article class="work-card reveal">
-          <div class="work-image image-product"></div>
-          <div class="work-copy"><span>Product Commercial</span><h3>Skincare Commercial</h3><p>Premium product visuals built for texture, trust, and purchase intent.</p></div>
-        </article>
-        <article class="work-card reveal">
-          <div class="work-image image-social"></div>
-          <div class="work-copy"><span>Social Campaign</span><h3>Restaurant Campaign</h3><p>A local content system designed for menu launches and consistent awareness.</p></div>
-        </article>
-        <article class="work-card wide reveal">
-          <div class="work-image image-web"></div>
-          <div class="work-copy"><span>Website</span><h3>Interior Website</h3><p>Editorial web direction for a studio that needs trust, taste, and inquiries.</p></div>
-        </article>
-        <article class="work-card reveal">
-          <div class="work-image image-fitness"></div>
-          <div class="work-copy"><span>Reels Pack</span><h3>Fitness Reels</h3><p>Short-form video concepts made for retention and repeat visibility.</p></div>
-        </article>
-        <article class="work-card reveal">
-          <div class="work-image image-startup"></div>
-          <div class="work-copy"><span>Landing Page</span><h3>Startup Landing Page</h3><p>A focused conversion page for presenting an offer and booking calls.</p></div>
-        </article>
-      </div>
-    </section>
-
-    <section class="process section" id="process">
-      <div class="section-head reveal">
-        <p class="kicker"><span></span>How We Work</p>
-        <h2>Four sharp steps from kickoff to launch.</h2>
-        <p>A focused, transparent process so you always know what is next and what to review.</p>
-      </div>
-      <div class="timeline">
-        <article class="timeline-step reveal"><span>01</span><h3>Discovery</h3><p>We dig into your brand, audience, goals, and what success should look like.</p></article>
-        <article class="timeline-step reveal"><span>02</span><h3>Strategy</h3><p>We define the creative angles, content structure, and conversion path.</p></article>
-        <article class="timeline-step reveal"><span>03</span><h3>Creation</h3><p>We design, edit, animate, and build the assets with clear feedback rounds.</p></article>
-        <article class="timeline-step reveal"><span>04</span><h3>Launch</h3><p>We deliver publish-ready files for web, social, ads, and brand campaigns.</p></article>
-      </div>
-    </section>
-
-    <section class="pricing section" id="pricing">
-      <div class="section-head reveal">
-        <p class="kicker"><span></span>Pricing</p>
-        <h2>Simple starting prices. Premium output.</h2>
-        <p>Choose a service category to view focused INR pricing. Custom scopes are available on request.</p>
-      </div>
-      <div class="pricing-tabs reveal" role="tablist" aria-label="Pricing categories">
-        <button class="active" data-category="ugc" type="button" role="tab" aria-selected="true">UGC Ads</button>
-        <button data-category="commercials" type="button" role="tab" aria-selected="false">Product Commercials</button>
-        <button data-category="websites" type="button" role="tab" aria-selected="false">Website Design</button>
-        <button data-category="carousels" type="button" role="tab" aria-selected="false">Carousel Design</button>
-        <button data-category="reels" type="button" role="tab" aria-selected="false">Reels & Shorts</button>
-        <button data-category="social" type="button" role="tab" aria-selected="false">Social Media Management</button>
-      </div>
-      <div class="pricing-layout reveal">
-        <div class="pricing-intro">
-          <span id="pricingLabel">UGC Ads</span>
-          <h3 id="pricingTitle">Creator-style ads for fast campaign testing.</h3>
-          <p id="pricingDescription">Start lean, test creative angles, and scale the winners without mixing services into one generic package.</p>
+        <div class="hero-content container reveal">
+            <h1 class="headline">Every Dish <br><span>Tells a Story.</span></h1>
+            <p class="subheadline">Experience handcrafted cuisine, exceptional hospitality, and unforgettable moments in the heart of the city.</p>
+            <div class="hero-btns">
+                <a href="#reserve" class="btn btn-primary">Reserve a Table</a>
+                <a href="#menu" class="btn btn-secondary">Explore Menu</a>
+            </div>
         </div>
-        <div class="price-grid" id="priceGrid"></div>
-      </div>
     </section>
 
-    <section class="why section">
-      <div class="section-head reveal">
-        <p class="kicker"><span></span>Why NovaFrame</p>
-        <h2>Premium quality, without the agency drag.</h2>
-        <p>We pair strong creative direction with a modern production workflow so you get sharper assets without unnecessary bloat.</p>
-      </div>
-      <div class="why-grid">
-        <article class="reveal"><span>01 / Speed</span><h3>Fast Turnaround</h3><p>Focused timelines designed around your campaign and launch dates.</p></article>
-        <article class="reveal"><span>02 / Craft</span><h3>Premium Quality</h3><p>High-end visual direction without templated, generic creative.</p></article>
-        <article class="reveal"><span>03 / Value</span><h3>Affordable Pricing</h3><p>Studio-grade output with transparent starting points in INR.</p></article>
-        <article class="reveal"><span>04 / Workflow</span><h3>AI-powered Workflow</h3><p>Used as a quiet workflow advantage for ideation, planning, and speed.</p></article>
-        <article class="reveal"><span>05 / Strategy</span><h3>Creative Strategy</h3><p>Every asset starts with the audience, offer, and conversion path.</p></article>
-        <article class="reveal"><span>06 / Support</span><h3>Dedicated Support</h3><p>Clear communication, organized handoff, and practical launch guidance.</p></article>
-      </div>
-    </section>
-
-    <section class="faq section" id="faq">
-      <div class="section-head split reveal">
-        <div>
-          <p class="kicker"><span></span>FAQ</p>
-          <h2>Answers to the questions we hear most.</h2>
+    <!-- 2. Signature Dishes -->
+    <section class="signature-dishes section-padding" id="menu">
+        <div class="container">
+            <div class="section-header reveal">
+                <p class="subtitle">Culinary Masterpieces</p>
+                <h2>Signature Dishes</h2>
+            </div>
+            <div class="dishes-grid">
+                <div class="dish-card reveal">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/dish_1.png" alt="Truffle Caviar Pasta" class="dish-img">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Truffle Caviar Pasta</h3>
+                        <p>Hand-rolled tagliolini, white truffle essence, beluga caviar, gold leaf.</p>
+                        <span class="price">$85</span>
+                    </div>
+                </div>
+                <div class="dish-card reveal">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/dish_2.png" alt="Wagyu Beef Tenderloin" class="dish-img">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Wagyu Tenderloin</h3>
+                        <p>A5 Japanese Wagyu, smoked parsnip purée, wild mushrooms, bone marrow jus.</p>
+                        <span class="price">$145</span>
+                    </div>
+                </div>
+                <div class="dish-card reveal">
+                    <div class="dish-img-wrapper">
+                        <img src="assets/citrus_sphere.png" alt="Citrus Sphere Dessert" class="dish-img">
+                    </div>
+                    <div class="dish-info">
+                        <h3>Citrus Sphere</h3>
+                        <p>Yuzu mousse, mandarin gel, almond crumble, spun sugar.</p>
+                        <span class="price">$35</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <p>Still curious? Drop us a line and we will reply with a clear next step.</p>
-      </div>
-      <div class="faq-list reveal">
-        <details open><summary>How fast can you turn around a project?</summary><p>Short-form videos and social assets usually move fastest. Websites and larger brand systems depend on scope, revisions, and launch timing.</p></details>
-        <details><summary>Can I start with only one service?</summary><p>Yes. You can begin with UGC ads, a carousel set, a landing page, or social management, then expand later.</p></details>
-        <details><summary>Do you write scripts and content ideas?</summary><p>Yes. Hooks, content angles, scripts, page structure, and creative direction can be included based on your package.</p></details>
-        <details><summary>How does the AI-powered workflow help?</summary><p>It supports research, ideation, planning, and production speed while the creative decisions remain human-led.</p></details>
-        <details><summary>Are the prices fixed?</summary><p>The listed prices are starting points. Final quotes depend on scope, complexity, timeline, and revisions.</p></details>
-      </div>
     </section>
 
-    <section class="contact section" id="contact">
-      <div class="contact-grid reveal">
-        <div class="contact-copy">
-          <p class="kicker"><span></span>Let's Build</p>
-          <h2>Tell us about your brand. We will reply with a plan.</h2>
-          <p>Whether it is one launch video or a full creative engine, we will shape the next step around your goal.</p>
-          <div class="contact-detail"><span>Email</span><a href="mailto:hello@novaframestudio.com">hello@novaframestudio.com</a></div>
+    <!-- 3. About Aurelia -->
+    <section class="about section-padding bg-soft" id="about">
+        <div class="container about-container">
+            <div class="about-text reveal">
+                <p class="subtitle">Our Philosophy</p>
+                <h2>An Ode to Fine Dining</h2>
+                <p>At Aurelia, we believe that dining is an art form. Every ingredient is carefully sourced, and every plate is a canvas. Our mission is to transport you through flavors that evoke memories and inspire culinary curiosity.</p>
+                <a href="#reserve" class="btn btn-primary mt-2">Discover More</a>
+            </div>
+            <div class="about-image reveal">
+                <img src="assets/hero_interior.png" alt="Aurelia Dining Room">
+            </div>
         </div>
-        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST" novalidate>
-          <!-- WEB3FORMS ACCESS KEY: Replace the value below if you rotate your key later. -->
-          <input type="hidden" name="access_key" value="f3df2716-3e1d-4f54-9120-2632a83d2573">
-          <input type="hidden" name="subject" value="New NovaFrame Studio consultation inquiry">
-          <input type="hidden" name="from_name" value="NovaFrame Studio Website">
-          <input class="bot-field" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true">
-
-          <label><span>Name</span><input type="text" name="name" placeholder="Your name" autocomplete="name" minlength="2" required></label>
-          <label><span>Email</span><input type="email" name="email" placeholder="you@brand.com" autocomplete="email" required></label>
-          <label><span>Phone</span><input type="tel" name="phone" placeholder="+91 98765 43210" autocomplete="tel" pattern="[0-9+() -]{7,20}" required></label>
-          <label><span>Service Needed</span><select name="service" required><option value="" selected disabled>Select a service</option><option>Video Production</option><option>Social Media</option><option>Web Design</option><option>Branding</option></select></label>
-          <label class="full"><span>Budget</span><select name="budget" required><option value="" selected disabled>Select a budget</option><option>Under ₹2,500</option><option>₹2,500 - ₹5,000</option><option>₹5,000 - ₹10,000</option><option>₹10,000 - ₹20,000</option><option>₹20,000+</option></select></label>
-          <label class="full"><span>Message</span><textarea name="message" rows="6" placeholder="Tell us about your brand, goals, and timeline..." minlength="10" required></textarea></label>
-          <button class="button button-orange full form-submit" type="submit">
-            <span class="button-spinner" aria-hidden="true"></span>
-            <span class="submit-label">Send Message</span>
-            <span class="submit-arrow" aria-hidden="true">→</span>
-          </button>
-          <p class="form-note full" role="status" aria-live="polite"></p>
-          <div class="form-error-actions full" hidden>
-            <a class="result-button whatsapp-result-button" href="https://wa.me/7975971842?text=Hi%20NovaFrame%20Studio%2C%20I%20just%20submitted%20a%20project%20request%20through%20your%20website.%20I%27d%20like%20to%20discuss%20my%20project." target="_blank" rel="noopener noreferrer">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"></path><path d="M9.2 8.1c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.7 2.1 2.2.3.2.5.2.7 0l.7-.8c.2-.2.4-.3.7-.2l1.7.8c.3.1.4.3.4.5 0 .3-.1 1.3-.8 1.8-.6.5-1.4.7-2.2.5-1.1-.3-2.4-.8-4-2.2-1.3-1.2-2.2-2.7-2.5-3.7-.3-1 .1-1.9.5-2.4z"></path></svg>
-              Chat on WhatsApp
-            </a>
-          </div>
-        </form>
-        <div class="success-card" tabindex="-1" hidden>
-          <div class="success-check" aria-hidden="true">
-            <svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24"></circle><path d="M15 27l7 7 15-16"></path></svg>
-          </div>
-          <p class="success-eyebrow">Request received</p>
-          <h3>🎉 Thank You! We've Received Your Request</h3>
-          <p>Our team will carefully review your project requirements and send a custom quote to your email within <strong>24 hours</strong>.</p>
-          <div class="success-actions">
-            <a class="result-button whatsapp-result-button" href="https://wa.me/7975971842?text=Hi%20NovaFrame%20Studio%2C%20I%20just%20submitted%20a%20project%20request%20through%20your%20website.%20I%27d%20like%20to%20discuss%20my%20project." target="_blank" rel="noopener noreferrer">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"></path><path d="M9.2 8.1c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.7 2.1 2.2.3.2.5.2.7 0l.7-.8c.2-.2.4-.3.7-.2l1.7.8c.3.1.4.3.4.5 0 .3-.1 1.3-.8 1.8-.6.5-1.4.7-2.2.5-1.1-.3-2.4-.8-4-2.2-1.3-1.2-2.2-2.7-2.5-3.7-.3-1 .1-1.9.5-2.4z"></path></svg>
-              Chat on WhatsApp
-            </a>
-            <a class="result-button home-result-button" href="#home">Back to Home</a>
-          </div>
-        </div>
-      </div>
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="footer-top">
-      <div>
-        <a class="brand" href="#home"><span class="brand-dot"></span><span>NovaFrame Studio</span></a>
-        <p>A creative content studio building brands that stand out through sharp ideas, premium craft, and a modern AI-powered workflow.</p>
-      </div>
-      <div><h3>Services</h3><a href="#services">Video Production</a><a href="#services">Social Media</a><a href="#services">Web Design</a><a href="#services">Branding</a></div>
-      <div><h3>Studio</h3><a href="#work">Work</a><a href="#process">Process</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a></div>
-      <div><h3>Contact</h3><a href="mailto:hello@novaframestudio.com">hello@novaframestudio.com</a><a href="#contact">Book a call</a></div>
-    </div>
-    <div class="footer-word">NOVAFRAME</div>
-    <div class="footer-bottom"><span>© 2026 NovaFrame Studio. All rights reserved.</span><div><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">YouTube</a></div></div>
-  </footer>
+    <!-- 4. Meet the Chef -->
+    <section class="chef section-padding" id="chef">
+        <div class="container chef-container">
+            <div class="chef-image reveal">
+                <img src="assets/chef.png" alt="Chef Alexander">
+            </div>
+            <div class="chef-text reveal">
+                <p class="subtitle">Master of Culinary Arts</p>
+                <h2>Chef Alexander</h2>
+                <p>"A great dish is not just tasted; it is felt. I design menus that challenge the palate while offering the comforting embrace of nostalgic flavors."</p>
+                <p class="chef-bio">With over two decades of experience in Michelin-starred kitchens across Paris, Tokyo, and New York, Chef Alexander brings a global perspective to Aurelia's avant-garde menu.</p>
+            </div>
+        </div>
+    </section>
 
-  <a class="whatsapp-button" href="https://wa.me/7975971842?text=Hello%20NovaFrame%20Studio%2C%20I%27d%20like%20to%20book%20a%20consultation." target="_blank" rel="noopener noreferrer" aria-label="Chat with NovaFrame Studio on WhatsApp">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8A8.5 8.5 0 0 1 12.5 20a8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7A8.38 8.38 0 0 1 4 11.5a8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8z"></path><path d="M9.2 8.1c.2-.5.4-.5.7-.5h.5c.2 0 .4 0 .5.4l.7 1.7c.1.3.1.5-.1.7l-.5.6c-.2.2-.2.4-.1.6.5.9 1.2 1.7 2.1 2.2.3.2.5.2.7 0l.7-.8c.2-.2.4-.3.7-.2l1.7.8c.3.1.4.3.4.5 0 .3-.1 1.3-.8 1.8-.6.5-1.4.7-2.2.5-1.1-.3-2.4-.8-4-2.2-1.3-1.2-2.2-2.7-2.5-3.7-.3-1 .1-1.9.5-2.4z"></path></svg>
-  </a>
+    <!-- 5. Dining Experience -->
+    <section class="experience section-padding" id="experience">
+        <div class="container text-center reveal">
+            <p class="subtitle">The Ambience</p>
+            <h2 class="mb-3">A Cinematic Dining Experience</h2>
+            <p style="text-align:center; max-width:700px; margin: 0 auto;">Immerse yourself in a space where architecture meets gastronomy. Aurelia's interior features dark wood, plush velvet, and ambient gold lighting, designed to create an intimate and luxurious atmosphere.</p>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- 6. Gallery -->
+    <section class="gallery" id="gallery">
+        <div class="gallery-header container reveal">
+            <p class="subtitle">Visual Taste</p>
+            <h2>A World of Flavour &amp; Elegance</h2>
+        </div>
+        <div class="gallery-masonry reveal">
+            <!-- Large featured item -->
+            <div class="gallery-item gi-large">
+                <img src="assets/restaurant_hero.png" alt="Aurelia Dining Room">
+                <div class="gallery-name">The Dining Room</div>
+            </div>
+            <!-- Tall item -->
+            <div class="gallery-item gi-tall">
+                <img src="assets/chef.png" alt="Chef Alexander">
+                <div class="gallery-name">Chef Alexander</div>
+            </div>
+            <!-- Small item -->
+            <div class="gallery-item gi-small">
+                <img src="assets/gallery_food_art.png" alt="Artistic Plating">
+                <div class="gallery-name">The Art of Plating</div>
+            </div>
+            <!-- Small item -->
+            <div class="gallery-item gi-small">
+                <img src="assets/gallery_dining.png" alt="Table Setting">
+                <div class="gallery-name">Intimate Setting</div>
+            </div>
+            <!-- Wide item -->
+            <div class="gallery-item gi-wide">
+                <img src="assets/gallery_bar.png" alt="The Bar">
+                <div class="gallery-name">The Aurelia Bar</div>
+            </div>
+            <!-- Small item -->
+            <div class="gallery-item gi-small">
+                <img src="assets/gallery_ambience.png" alt="Private Dining">
+                <div class="gallery-name">Private Dining</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Testimonials -->
+    <section class="testimonials section-padding">
+        <div class="container text-center reveal">
+            <p class="subtitle">Words from our Guests</p>
+            <h2>An Unforgettable Journey</h2>
+            <div class="testimonial-slider mt-4">
+                <div class="testimonial">
+                    <p class="quote">"Aurelia redefines luxury dining. The Wagyu tenderloin was a revelation, and the service was impeccable. A true masterpiece."</p>
+                    <p class="author">- Michelin Guide Reviewer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Reservation CTA -->
+    <section class="reservation section-padding" id="reserve">
+        <div class="container reservation-container reveal">
+            <div class="reservation-content text-center">
+                <p class="subtitle">Join Us</p>
+                <h2>Reserve Your Table</h2>
+                <p>Secure your place for an evening of culinary excellence.</p>
+                <form class="reservation-form mt-4">
+                    <div class="form-row">
+                        <input type="date" placeholder="Select Date" required>
+                        <input type="time" placeholder="Select Time" required>
+                        <div class="select-wrapper">
+                            <select required>
+                                <option value="" disabled selected>Guests</option>
+                                <option value="1">1 Person</option>
+                                <option value="2">2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5+">5+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary mt-2">Find a Table</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="faq section-padding bg-soft" id="faq">
+        <div class="container">
+            <div class="section-header reveal text-center">
+                <p class="subtitle">Information</p>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-list mt-4 reveal">
+                <div class="faq-item active">
+                    <div class="faq-question">What is the dress code? <span class="icon">+</span></div>
+                    <div class="faq-answer"><p>We request smart elegant attire. Jackets are preferred for gentlemen. Athletic wear and flip-flops are not permitted.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Do you accommodate dietary restrictions? <span class="icon">+</span></div>
+                    <div class="faq-answer"><p>Yes, please inform us of any allergies or dietary requirements at least 48 hours prior to your reservation.</p></div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Is there a cancellation fee? <span class="icon">+</span></div>
+                    <div class="faq-answer"><p>Cancellations made less than 24 hours in advance will incur a $50 per person fee.</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Contact & 11. Footer -->
+    <footer class="footer section-padding" id="contact">
+        <div class="container">
+            <div class="footer-grid reveal">
+                <div class="footer-brand">
+                    <h2>AURELIA</h2>
+                    <p>Every Dish Tells a Story.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Contact Us</h3>
+                    <p>123 Luxury Avenue<br>New York, NY 10001</p>
+                    <p>contact@aurelia.com</p>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Hours</h3>
+                    <p>Tue - Sun: 5:00 PM - 11:00 PM</p>
+                    <p>Monday: Closed</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Follow Us</h3>
+                    <div class="socials">
+                        <a href="#">Instagram</a>
+                        <a href="#">Facebook</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Aurelia. All rights reserved.</p>
+                <div class="legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
