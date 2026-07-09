@@ -406,7 +406,7 @@ h3 {
   inset: 0;
   background: linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,.82));
 }
-.image-video { background: url("assets/studio-hero.png") center/cover; }
+.image-video { background: url("assets/studio-hero.jpg") center/cover; }
 .image-product { background: radial-gradient(circle at 68% 22%, rgba(255,99,20,.55), transparent 28%), linear-gradient(135deg, #24120d, #090909); }
 .image-social { background: radial-gradient(circle at 20% 20%, rgba(255,77,10,.44), transparent 30%), linear-gradient(135deg, #1b0b05, #0b0b0d); }
 .image-web { background: url("assets/hero-mockup.png") center/cover; }
